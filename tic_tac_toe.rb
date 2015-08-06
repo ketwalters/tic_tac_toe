@@ -61,11 +61,12 @@ def winner
     exit
   else
     if @board[2] == @board[4] && @board[4] == @board[6] && @board[2] != ""
-    puts @board[2] 
-    exit
-  end
+      puts @board[2] 
+      exit
+    end
   end
 end
+
 end
 
 
