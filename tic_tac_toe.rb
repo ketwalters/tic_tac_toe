@@ -39,7 +39,7 @@ class Game
       array << @human
     end
   end
-    while array.length >= 9 || !winner 
+    while array.length == 9 || !winner 
       if array[-1] == @computer
         puts "Your move #{@human}"
         array << @human
